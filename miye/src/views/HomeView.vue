@@ -20,34 +20,43 @@
 
       </section>
       <section class="section-2">
-
+        <HomeSwiper/>
         <article id="box-container">
           <div id="box">
             <div id="box-text">
-              <i class="fa-solid fa-chart-pie fa-3x"></i>
-              <h2>Eficiencia y gestión de costos</h2>
-              <p>Nos comprometemos a optimizar procesos para ahorrar tiempo y dinero, brindando una gestión rentable y
+              <div id="box-header">
+                <i class="fa-solid fa-chart-pie fa-3x"></i>
+                <h2>Eficiencia y gestión de costos</h2>
+              </div>
+
+              <p id="box-p">Nos comprometemos a optimizar procesos para ahorrar tiempo y dinero, brindando una gestión rentable y
                 efectiva.</p>
             </div>
 
           </div>
           <div id="box">
-           
+
             <div id="box-text">
-              <i class="fa-solid fa-scale-balanced fa-3x" ></i>
-              <h2>Ética e Integridad</h2>
-              <p>Seguimos rigurosos estándares éticos en cada aspecto de la gestión de condominios, trabajando
+              <div id="box-header">
+                <i class="fa-solid fa-scale-balanced fa-3x"></i>
+                <h2>Ética e Integridad</h2>
+              </div>
+
+              <p id="box-p">Seguimos rigurosos estándares éticos en cada aspecto de la gestión de condominios, trabajando
                 incansablemente para el bienestar de toda la comunidad.</p>
             </div>
           </div>
 
           <div id="box">
 
-            
+
             <div id="box-text">
-              <i class="fa-solid fa-building-shield fa-3x"></i>
-              <h2>Servicio Personalizado</h2>
-              <p>
+              <div id="box-header">
+                <i class="fa-solid fa-building-shield fa-3x"></i>
+                <h2>Servicio Personalizado</h2>
+              </div>
+
+              <p id="box-p">
                 Diseñamos estrategias a medida para satisfacer las necesidades únicas de tu comunidad, garantizando tu
                 satisfacción.
               </p>
@@ -55,81 +64,86 @@
           </div>
           <div id="box">
             <div id="box-text">
-              <i class="fa-sharp fa-solid fa-comments-dollar fa-3x"></i>
-            <h2>Transparencia Total</h2>
-            <p>En Tú Comunidad, valoramos la comunicación abierta y honesta. Obtendrás acceso en tiempo real a toda la
-              información de tu comunidad.</p>
+              <div id="box-header">
+                <i class="fa-sharp fa-solid fa-comments-dollar fa-3x"></i>
+                <h2>Transparencia Total</h2>
+              </div>
+
+              <p id="box-p">En Tú Comunidad, valoramos la comunicación abierta y honesta. Obtendrás acceso en tiempo real a toda la
+                información de tu comunidad.</p>
+            </div>
           </div>
-        </div>
-    </article>
-    </section>
-    <section class="section-3">
-      <h1><strong>¿Qué puede esperar de nosostros?</strong></h1>
-      <div class="accordion" id="accordion">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-              aria-expanded="true" aria-controls="collapseOne">
-              Atención al Cliente Personalizada
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion">
-            <div class="accordion-body">
-              Tu satisfacción es nuestra prioridad. Estamos disponibles para responder a tus preguntas y proporcionarte
-              soluciones personalizadas de manera rápida y amigable.
+        </article>
+      </section>
+      <section class="section-3">
+        <h1><strong>¿Qué puede esperar de nosostros?</strong></h1>
+        <div class="accordion" id="accordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Atención al Cliente Personalizada
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion">
+              <div class="accordion-body">
+                Tu satisfacción es nuestra prioridad. Estamos disponibles para responder a tus preguntas y proporcionarte
+                soluciones personalizadas de manera rápida y amigable.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Comprometidos con la Excelencia
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion">
+              <div class="accordion-body">
+                Buscamos la excelencia en la administración de condominios, manteniendo los más altos estándares de
+                calidad en todos nuestros servicios.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Transparencia Económica
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion">
+              <div class="accordion-body">
+                Garantizamos acceso a información clara y detallada sobre las finanzas de tu condominio, proporcionando
+                informes financieros precisos y actualizados.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Transparencia Operacional
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion">
+              <div class="accordion-body">
+                Mantenemos informados a los residentes sobre todas las acciones y decisiones que afectan al condominio,
+                promoviendo la confianza y la comprensión de nuestras operaciones.
+              </div>
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Comprometidos con la Excelencia
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion">
-            <div class="accordion-body">
-              Buscamos la excelencia en la administración de condominios, manteniendo los más altos estándares de
-              calidad en todos nuestros servicios.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Transparencia Económica
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion">
-            <div class="accordion-body">
-              Garantizamos acceso a información clara y detallada sobre las finanzas de tu condominio, proporcionando
-              informes financieros precisos y actualizados.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              Transparencia Operacional
-            </button>
-          </h2>
-          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion">
-            <div class="accordion-body">
-              Mantenemos informados a los residentes sobre todas las acciones y decisiones que afectan al condominio,
-              promoviendo la confianza y la comprensión de nuestras operaciones.
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </div>
-</div></template>
+</template>
 <script>
+import HomeSwiper from '../components/HomeSwiper.vue'
 export default {
   name: "ContactView",
-
+  components: HomeSwiper,
 };
 </script>
 
@@ -238,6 +252,8 @@ export default {
     justify-content: center;
     align-items: center;
     width: 100%;
+
+    height: 500px;
     background: linear-gradient(to bottom, rgba(144, 144, 145, 0.421), rgba(64, 65, 66, 0.375)),
       url("../assets/Miye-section-2-bg-v2.png");
     background-size: cover;
@@ -245,22 +261,30 @@ export default {
     background-repeat: no-repeat;
     background-attachment: fixed;
 
-    .about-container {
-      width: 100%;
-      display: flex;
-
-    }
-
     #box-container {
-
       margin: 20px;
       display: grid;
       grid-gap: 20px;
-      width: 50%;
-      height: 600px;
-      grid-template-columns: auto auto;
-      grid-template-rows: auto auto;
-      text-align: start;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      place-items: center;
+
+      @media (min-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      @media(min-width: 1556px) {
+        grid-template-columns: repeat(4, 1fr);
+      
+      }
+
+    }
+
+    @media(max-width: 1556px) {
+      height: 800px;
+    }
+
+    @media (max-width: 768px) {
+      height: 500px;
     }
 
     #box {
@@ -268,33 +292,42 @@ export default {
       flex-direction: row;
       align-items: center;
       justify-content: center;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(to bottom, rgba(40, 138, 242, 0.732),rgba(70, 88, 228, 0.64));
+      height: 350px;
+      background: linear-gradient(to bottom, rgba(40, 138, 242, 0.732), rgba(70, 88, 228, 0.64));
       backdrop-filter: blur(15px);
       z-index: 995;
       box-shadow: 2px 5px 5px 5px rgba(16, 145, 192, 0.307);
       border-radius: 10px;
+      width: 340px;
 
-      #box-text{
+      #box-text {
         color: rgb(255, 255, 255);
         height: 100%;
         display: flex;
-        justify-content: center;
+        width: 100%;
+        justify-content: space-around;
         flex-direction: column;
         align-items: center;
         text-align: start;
         padding: 20px;
-        #box-icon{
-          width: 60px;
-          height: 60px;
+        #box-header{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: start;
+          margin-top: 10px;
+          height: 60%;
+        }
+        #box-p{
+          height: 50%;
+          
         }
       }
     }
 
     h2 {
+      margin-top: 15px;
       text-align: center;
-      width: 80%;
     }
 
 
@@ -322,4 +355,5 @@ export default {
       }
     }
   }
-}</style>
+}
+</style>
